@@ -15,7 +15,7 @@ namespace Persistence.Repositories
         {
             return   Task.FromResult(_db.Query<TbDisciplina>(@$"
 
-select * from TbDisciplina disciplina 
+  SELECT disciplina.IdDisciplina,Descrição[Descricao],Abreviatura FROM TbDisciplina disciplina
     join TbDisciplinaProfessor disciplinaProf 
         ON disciplinaProf.idDisciplina=disciplina.IdDisciplina
          where IdProfessor={id}

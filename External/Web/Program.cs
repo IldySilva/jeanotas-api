@@ -34,6 +34,8 @@ builder.Services.AddScoped<IRepoEstudantes, RepoEstudantes>();
 builder.Services.AddScoped<IRepoCursos, RepoCursos>();
 builder.Services.AddScoped<IRepoDisciplinas, RepoDisciplina>();
 builder.Services.AddScoped<IRepoNotas, RepoNotas>();
+builder.Services.AddScoped<IRepoTurmas, RepoTurmas>();
+builder.Services.AddScoped<IRepoSalas, RepoSalas>();
 
 builder.Services.AddScoped<IDataAccess, DataAccess>();
 builder.Services.AddTransient<ExceptionHandlingMiddleware>();

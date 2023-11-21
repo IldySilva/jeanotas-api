@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 namespace Application.Models;
 
-public partial class Turma
+public  class Turma
 {
-    public string Descricaoo { get; set; } = null!;
+    public string Descricao { get; set; }
+
 }

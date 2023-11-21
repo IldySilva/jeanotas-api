@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj": {}
+    "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\Jea Software\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj": {
+    "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\Jea Software\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\Jea Software\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj",
         "projectName": "Infraestructure",
-        "projectPath": "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj",
+        "projectPath": "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\Jea Software\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj",
         "packagesPath": "C:\\Users\\vasconcelos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\Jea Software\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

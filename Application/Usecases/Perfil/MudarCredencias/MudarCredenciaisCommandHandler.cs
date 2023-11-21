@@ -23,6 +23,6 @@ public class MudarCredenciaisCommandHandler : ICommandHandler<MudarCredenciaisCo
         professor.Usuario = request.NomeNovo;
 
         await _professores.Update(professor);
-        return professor.Adapt<ProfessorViewModel>();
+        return _professores.GetAll().Result.FirstOrDefault(x => x.IdProfessor == professor.IdProfessor);
     }
 }

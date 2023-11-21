@@ -16,6 +16,7 @@ public class GetNotasQueryHandler : ICommandHandler<GetNotasQuery, TbNota>
 
     public Task<TbNota> Handle(GetNotasQuery request, CancellationToken cancellationToken)
     {
-        return _notas.GetById(request.Id);
+        var nota= _notas.GetById(request.Id);
+        return nota;
     }
 }

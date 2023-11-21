@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ALd4/D4LCXhvqCqI3m0Ar9yRbfW3X/CT0qMlh+S+yuXvDGzIFluoQZZrvtNc0tOdGeaJc3jOdnqh3TSR+rHRsA==",
+  "dgSpecHash": "txo/4CcOdgOeRcXMsDtWie8LGJjpDxzq4OpRGXjUDYLNC2eIlbGOVCKlxaFTo9FhyahDs3Fa/BMNAJnysgzNLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\vasconcelos\\OneDrive\\Documentos\\Jea Software\\JeaNotas-api\\jeanotas_webapi\\External\\Infraestructure\\Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vasconcelos\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\vasconcelos\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

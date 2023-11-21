@@ -1,6 +1,7 @@
 ﻿using Domain.DTOs;
 using Domain.Entities;
 using Domain.Repositories;
+using Domain.ViewModel;
 using Infraestructure.Infra_DbAcess;
 using Mapster;
 using Persistence.Helpers;
@@ -19,9 +20,15 @@ namespace Persistence.Repositories
 
         }
 
-        public Task<List<TbProfessor>> GetAll()
+        public Task<List<TbProfessor>> GetAllEntities()
         {
-           return   Task.FromResult(_db.Query<TbProfessor>($"select  * from  TbProfessor").ToList());
+           return   Task.FromResult(_db.Query<TbProfessor>($"  select  p.*,nivel.NivelAcademico[Nivel],nivel.Pagamento from  TbProfessor p  join TbNivelAcademico nivel on nivel.IdNivel=p.NivelAcademico").ToList());
+        }
+
+        public Task<List<ProfessorViewModel>> GetAll()
+        {
+            return   Task.FromResult(_db.Query<ProfessorViewModel>($"  select  p.*,nivel.NivelAcademico[Nivel],nivel.Pagamento from  TbProfessor p  join TbNivelAcademico nivel on nivel.IdNivel=p.NivelAcademico").ToList());
+
         }
 
         public async Task<TbProfessor?> Update(TbProfessor professor)

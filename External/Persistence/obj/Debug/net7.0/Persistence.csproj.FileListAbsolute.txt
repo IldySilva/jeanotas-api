@@ -17,3 +17,22 @@ C:\Users\vasconcelos\OneDrive\Documentos\JeaNotas-api\jeanotas_webapi\External\P
 C:\Users\vasconcelos\OneDrive\Documentos\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.pdb
 C:\Users\vasconcelos\OneDrive\Documentos\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache
 C:\Users\vasconcelos\OneDrive\Documentos\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\ref\Persistence.dll
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\bin\Debug\net7.0\Persistence.deps.json
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\bin\Debug\net7.0\Persistence.runtimeconfig.json
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\bin\Debug\net7.0\Persistence.dll
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\bin\Debug\net7.0\Persistence.pdb
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\bin\Debug\net7.0\Domain.dll
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\bin\Debug\net7.0\Infraestructure.dll
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\bin\Debug\net7.0\Domain.pdb
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\bin\Debug\net7.0\Infraestructure.pdb
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.dll
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.pdb
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Persistence\obj\Debug\net7.0\ref\Persistence.dll

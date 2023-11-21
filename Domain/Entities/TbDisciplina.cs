@@ -7,7 +7,7 @@ public partial class TbDisciplina
 {
     public int IdDisciplina { get; set; }
 
-    public string Descrição { get; set; } = null!;
+    public string Descricao { get; set; } = null!;
 
     public string? Abreviatura { get; set; }
 }

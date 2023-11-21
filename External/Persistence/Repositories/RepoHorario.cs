@@ -18,7 +18,7 @@ namespace Persistence.Repositories
  tempo.Termina,
 disciplina.Descrição[Disciplina] ,
  curso.Descricao[Curso]
-FROM TbHorario  horari  o 
+FROM TbHorario  horario 
   join TbDisciplina
 disciplina  on horario.IdDisciplina=disciplina.IdDisciplina
 

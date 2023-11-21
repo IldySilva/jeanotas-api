@@ -26,6 +26,6 @@ public class MudarSenhaCommandHandler:ICommandHandler<MudarSenhaCommand,Professo
         professor.Senha = request.SenhaNova;
 
         await _professores.Update(professor);
-        return professor.Adapt<ProfessorViewModel>();
+        return _professores.GetAll().Result.FirstOrDefault(x => x.IdProfessor == professor.IdProfessor);
     }
 };
