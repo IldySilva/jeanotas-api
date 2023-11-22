@@ -21,15 +21,13 @@ namespace Persistence.Repositories
         {
             return   Task.FromResult(_db.Query<MatriculaViewModel>(@$"
 
-SELECT  
+SELECT 
 	Estudante.Nome,
 	Estudante.Sexo,
 	Estudante.Telefone,
-	notas.IdDisciplina,
-	Matricula.*
-
+	Matricula.*,
+	notas.*
     FROM Matricula
-	
 	join Estudante on Estudante.Id=Matricula.IdEstudante
 	left  join TbNotas  notas on notas.IdEsudante=Estudante.Id
 

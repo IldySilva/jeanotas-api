@@ -1,3 +1,3 @@
 ﻿namespace Application.Usecases.Estudantes;
 
-public record GetEstudantesRequest(int IdCurso,string Classe,string Turma,string Sala,int IdDisciplina);
+public record GetEstudantesRequest(int IdCurso,string Classe,string Turma,int IdDisciplina);

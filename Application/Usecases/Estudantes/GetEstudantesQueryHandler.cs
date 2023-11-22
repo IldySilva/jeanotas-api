@@ -22,7 +22,7 @@ public class GetEstudantesQueryHandler:IQueryHandler<GetEstudantesQuery,List<Mat
                 x.IdCurso==request.IdCurso
                 && x.Turma == request.Turma
                 && x.Classe == request.Classe
-                && x.Sala == request.Sala)
+                )
             .ToList();
         return estudantes;
 
