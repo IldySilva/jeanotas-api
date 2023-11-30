@@ -23,7 +23,7 @@ builder.Services.AddCors(options =>
         });
 }); 
 builder.Services.AddScoped<IDbConnection>(_ =>
-    new Microsoft.Data.SqlClient.SqlConnection(builder.Configuration.GetConnectionString("DataSource"))); 
+    new Microsoft.Data.SqlClient.SqlConnection(builder.Configuration.GetConnectionString("DataSourceRemote"))); 
 builder.Services.AddControllers();
 builder.Services.AddRazorPages();
 builder.Services.AddEndpointsApiExplorer();
