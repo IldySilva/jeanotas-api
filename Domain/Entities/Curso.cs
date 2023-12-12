@@ -1,6 +1,6 @@
 ﻿namespace Domain.Entities;
 
-public partial class Curso
+public  class Curso
 {
     public int Idcurso { get; set; }
 

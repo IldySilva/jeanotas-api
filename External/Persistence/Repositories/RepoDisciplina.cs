@@ -15,15 +15,11 @@ namespace Persistence.Repositories
         {
             return   Task.FromResult(_db.Query<TbDisciplina>(@$"
 
-   SELECT  distinct disciplina.IdDisciplina,Descrição[Descricao],Abreviatura FROM TbDisciplina disciplina
-    join TbDisciplinaProfessor disciplinaProf 
-        ON disciplinaProf.idDisciplina=disciplina.IdDisciplina
-		join TbCursoDisciplina cd on cd.Iddisciplina=disciplina.IdDisciplina
-         where
-IdProfessor={professor}
-		 and 
-		 Idcurso={curso}
-   and cd.Classe='{classe}'
+  select distinct disciplina.IdDisciplina,disciplina.Descrição[Descricao],disciplina.Abreviatura from Curso  curso
+    join TbHorario horario 
+	join TbDisciplina disciplina on disciplina.IdDisciplina=horario.IdDisciplina
+        ON  horario.IdCurso=curso.Idcurso
+         where horario.IdProfessor={professor}  and curso.Idcurso={curso} and horario.Classe='{classe}'
 
 ").ToList());
 
@@ -33,10 +29,10 @@ IdProfessor={professor}
         {
             return   Task.FromResult(_db.Query<Curso>(@$"
 
-select * from Curso 
-    join TbCursoProfessor cursoProf 
-        ON cursoProf.idCurso=Curso.Idcurso
-
+  select distinct disciplina.IdDisciplina,disciplina.Descrição[Descricao],disciplina.Abreviatura from Curso  curso
+    join TbHorario horario 
+	join TbDisciplina disciplina on disciplina.IdDisciplina=horario.IdDisciplina
+        ON  horario.IdCurso=curso.Idcurso
 
 ").ToList());
 

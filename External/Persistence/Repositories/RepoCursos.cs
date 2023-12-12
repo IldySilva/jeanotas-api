@@ -15,10 +15,11 @@ namespace Persistence.Repositories
         {
             return   Task.FromResult(_db.Query<Curso>(@$"
 
-select * from Curso 
-    join TbCursoProfessor cursoProf 
-        ON cursoProf.idCurso=Curso.Idcurso
-         where IdProfessor={id}
+      select distinct curso.* from Curso  curso
+        join TbHorario horario 
+
+            ON  horario.IdCurso=curso.Idcurso
+             where horario.IdProfessor={id}
 
 ").ToList());
 
@@ -28,10 +29,10 @@ select * from Curso
         {
             return   Task.FromResult(_db.Query<Curso>(@$"
 
-select * from Curso 
-    join TbCursoProfessor cursoProf 
-        ON cursoProf.idCurso=Curso.Idcurso
+    select distinct * from Curso  curso
+    join TbHorario horario 
 
+        ON  horario.IdCurso=curso.Idcurso
 
 ").ToList());
 
