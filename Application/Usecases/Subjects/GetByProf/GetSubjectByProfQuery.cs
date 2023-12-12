@@ -3,4 +3,4 @@ using Application.Models;
 
 namespace Application.Usecases.Subjects.GetByProf;
 
-public record GetSubjectByProfQuery(int Id): IQuery<List<TbDisciplina>>;
+public record GetSubjectByProfQuery(int Id,int Curso,string classe): IQuery<List<TbDisciplina>>;

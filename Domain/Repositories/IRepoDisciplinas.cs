@@ -5,6 +5,6 @@ namespace Domain.Repositories;
 public interface IRepoDisciplinas
 {
     
-    Task<List<TbDisciplina>> GetByProf(int id);
+    Task<List<TbDisciplina>> GetByProf(int professor,int curso,string classe);
 
 }

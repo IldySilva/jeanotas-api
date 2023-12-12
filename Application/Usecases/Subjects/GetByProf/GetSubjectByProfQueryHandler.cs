@@ -15,6 +15,6 @@ public class GetSubjectByProfQueryHandler: IQueryHandler<GetSubjectByProfQuery,L
 
     public Task<List<TbDisciplina>> Handle(GetSubjectByProfQuery request, CancellationToken cancellationToken)
     {
-        return _disciplinas.GetByProf(request.Id);
+        return _disciplinas.GetByProf(request.Id,request.Curso,request.classe);
     }
 };

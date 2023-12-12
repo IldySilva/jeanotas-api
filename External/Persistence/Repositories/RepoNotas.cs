@@ -29,7 +29,7 @@ namespace Persistence.Repositories
         public async Task<TbNota?> Update(TbNota professor)
         {
             
-            var query = SqlQueryGen.GenerateUpdateSql(professor.Adapt<DtoProfessor>(), $"{Table}",$"idNotas={professor.IdNotas}");
+            var query = SqlQueryGen.GenerateUpdateSql(professor.Adapt<TbNota>(), $"{Table}",$"idNotas={professor.IdNotas}");
             await _db.CommandAsync(query);
             return await GetById(professor.IdProfessor);
         }

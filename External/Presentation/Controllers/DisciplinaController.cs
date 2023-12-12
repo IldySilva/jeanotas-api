@@ -19,8 +19,8 @@ public class DisciplinaController:ControllerBase
     }
        
     [HttpGet("{professor}")]
-    public async Task<IActionResult> GetByProf(int professor)
+    public async Task<IActionResult> GetByProf(int professor,int curso,string classe)
     {
-        return Ok(await _sender.Send(new GetSubjectByProfQuery(professor)));
+        return Ok(await _sender.Send(new GetSubjectByProfQuery(professor,curso,classe)));
     }
 }

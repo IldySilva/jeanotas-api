@@ -1,0 +1,14 @@
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\bin\Release\net7.0\Domain.deps.json
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\bin\Release\net7.0\Domain.runtimeconfig.json
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\bin\Release\net7.0\Domain.dll
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\bin\Release\net7.0\Domain.pdb
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\Domain.AssemblyInfo.cs
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\Domain.dll
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\refint\Domain.dll
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\Domain.pdb
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\Domain.genruntimeconfig.cache
+C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\Domain\obj\Release\net7.0\ref\Domain.dll

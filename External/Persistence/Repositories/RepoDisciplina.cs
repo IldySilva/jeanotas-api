@@ -11,14 +11,19 @@ namespace Persistence.Repositories
         private readonly IDataAccess _db;
         public RepoDisciplina(IDataAccess db) => _db = db;
 
-        public Task<List<TbDisciplina>> GetByProf(int id)
+        public Task<List<TbDisciplina>> GetByProf(int professor,int curso,string classe)
         {
             return   Task.FromResult(_db.Query<TbDisciplina>(@$"
 
-  SELECT disciplina.IdDisciplina,Descrição[Descricao],Abreviatura FROM TbDisciplina disciplina
+   SELECT  distinct disciplina.IdDisciplina,Descrição[Descricao],Abreviatura FROM TbDisciplina disciplina
     join TbDisciplinaProfessor disciplinaProf 
         ON disciplinaProf.idDisciplina=disciplina.IdDisciplina
-         where IdProfessor={id}
+		join TbCursoDisciplina cd on cd.Iddisciplina=disciplina.IdDisciplina
+         where
+IdProfessor={professor}
+		 and 
+		 Idcurso={curso}
+   and cd.Classe='{classe}'
 
 ").ToList());
 
