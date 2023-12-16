@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\vasconcelos\OneDrive\Documentos\Jea Software\JeaNotas-api\jeanotas_webapi\External\Web\bin\Release\net7.0\publish\</_PublishTargetUrl>
-    <History>True|2023-12-12T00:29:16.3423298Z;True|2023-12-12T01:29:07.3362339+01:00;True|2023-12-12T01:28:26.4819119+01:00;True|2023-12-03T21:36:43.5078321+01:00;True|2023-12-03T21:15:42.8875163+01:00;</History>
+    <History>True|2023-12-15T08:50:39.0653836Z;True|2023-12-15T09:31:13.4010726+01:00;True|2023-12-12T15:37:19.3366393+01:00;True|2023-12-12T01:29:16.3423298+01:00;True|2023-12-12T01:29:07.3362339+01:00;True|2023-12-12T01:28:26.4819119+01:00;True|2023-12-03T21:36:43.5078321+01:00;True|2023-12-03T21:15:42.8875163+01:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

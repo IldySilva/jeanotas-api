@@ -20,9 +20,15 @@ public class LancarNotaCommandHandler:ICommandHandler<LancarNotaCommand,Matricul
 
     public async Task<MatriculaViewModel> Handle(LancarNotaCommand request, CancellationToken cancellationToken)
     {
+
+
+        
+        
+        
         if (request.IdNotas is null or 0)
         {
             var nota = request.Adapt<TbNota>();
+
             nota.IdNotas = null;
             await _notas.insert(nota);
         }

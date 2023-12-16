@@ -20,6 +20,8 @@ public class LoginCommandHandler: ICommandHandler<LoginCommand,ProfessorViewMode
     public async Task<ProfessorViewModel> Handle(LoginCommand request, CancellationToken cancellationToken)
     {
         var profs = await _professores.GetAll();
+        profs = profs.Where(x => x.Estado).ToList();
+        
     
         var professor = profs.FirstOrDefault(x => x.Usuario == request.User && x.Senha == request.Password);
         if (professor == null)

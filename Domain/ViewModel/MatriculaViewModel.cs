@@ -53,7 +53,8 @@ public class MatriculaViewModel
         public double? Mac1_1º { get; set; }
 
         public double? Npp1_1º { get; set; }
-
+        public double? Npp1_1º2 { get; init; }
+        
         public double? NpT1_1º { get; set; }
 
         public double? Mt1_1º { get; set; }
@@ -69,7 +70,7 @@ public class MatriculaViewModel
         public double? Mac_2º { get; set; }
 
         public double? Npp_2º { get; set; }
-
+        public double? Npp_2º2 { get; init; }
         public double? NpT_2º { get; set; }
 
         public double? Mt_2º { get; set; }

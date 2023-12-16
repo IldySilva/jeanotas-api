@@ -35,4 +35,6 @@ public class ProfessorViewModel
     public string? Iban { get; set; }
     [JsonIgnore]
     public string Senha { get; set; }
+
+    public bool Estado { get; set; } = true;
 }

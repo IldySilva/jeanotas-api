@@ -27,7 +27,9 @@ public  class TbNota
     public double? Npp1_1º { get; set; }
 
     public double? NpT1_1º { get; set; }
-
+    
+    public double? Npp1_1º2 { get; init; }
+    
     public double? Mt1_1º { get; set; }
 
     public double? Av1_2º { get; set; }
@@ -41,6 +43,7 @@ public  class TbNota
     public double? Mac_2º { get; set; }
 
     public double? Npp_2º { get; set; }
+    public double? Npp_2º2 { get; init; }
 
     public double? NpT_2º { get; set; }
 
