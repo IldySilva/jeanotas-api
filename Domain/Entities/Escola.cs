@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Application.Models;
 
-public partial class Escola
+public  class Escola
 {
     public int IdEscola { get; set; }
 
-    public string? NomeEscola { get; set; }
+    public string? Nome_Escola { get; set; }
 
     public string? Nif { get; set; }
 
@@ -36,8 +36,6 @@ public partial class Escola
     public string? Bairro { get; set; }
 
     public string? Rua { get; set; }
-
-    public byte[]? Foto { get; set; }
 
     public string? DirGeral { get; set; }
 

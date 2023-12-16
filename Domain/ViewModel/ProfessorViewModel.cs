@@ -37,4 +37,7 @@ public class ProfessorViewModel
     public string Senha { get; set; }
 
     public bool Estado { get; set; } = true;
+    
+ 
+
 }

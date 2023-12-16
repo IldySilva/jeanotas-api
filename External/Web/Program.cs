@@ -36,6 +36,7 @@ builder.Services.AddScoped<IRepoTurmas, RepoTurmas>();
 builder.Services.AddScoped<IRepoSalas, RepoSalas>();
 builder.Services.AddScoped<IRepoFaltas, RepoFaltas>();
 builder.Services.AddScoped<IRepoFuncionario, RepoFuncionario>();
+builder.Services.AddScoped<IRepoSchool, RepoSchool>();
 
 builder.Services.AddScoped<IDataAccess, DataAccess>();
 builder.Services.AddTransient<ExceptionHandlingMiddleware>();
