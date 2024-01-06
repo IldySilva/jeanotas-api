@@ -26,7 +26,7 @@ public class LoginCommandHandler: ICommandHandler<LoginCommand,ProfessorViewMode
         var professor = profs.FirstOrDefault(x => x.Usuario == request.User && x.Senha == request.Password);
         if (professor == null)
         {
-            throw new UserNotFoundException("Utilizador Não Encontrado,verifique as suas credenciasi")
+            throw new UserNotFoundException("Utilizador Não Encontrado,verifique as suas Credenciais")
                 ;
         }
     

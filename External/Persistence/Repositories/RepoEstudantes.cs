@@ -30,6 +30,7 @@ SELECT
     FROM Matricula
 	join Estudante on Estudante.Id=Matricula.IdEstudante
 	left  join TbNotas  notas on notas.IdEsudante=Estudante.Id
+join TbPrecos p on p.ALemcurso=Matricula.AnoLectivo
 
 ").ToList());
 
